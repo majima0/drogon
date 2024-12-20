@@ -15,5 +15,5 @@ make
 
 # アクセス
 ```
-http://localhost:8080/uploadSample/
+http://localhost
 ```
