@@ -6,3 +6,4 @@ sources/build/cmake_install.cmake
 sources/CMakeLists.txt
 sources/build/javascript_cooperation
 sources/test
+sources/build/uploads
