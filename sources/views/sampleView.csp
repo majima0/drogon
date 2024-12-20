@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>File upload</title>
+</head>
+<body>
+<form name="uploadForm">
+    <input type="file" id="chooseFile" />
+    <input type="button" id="uploadButton" value="アップロード" />
+    <span id="progressInformation" ></span>
+    <progress id="progressOfUpload" max="100" />
+</body>
+</form>
+<script type="text/javascript" src="/js/fileupload.js"></script>
+</html>
