@@ -25,6 +25,14 @@ std::string sampleView::genText(const DrTemplateData& sampleView_view_data)
 	sampleView_tmp_stream << "    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/sample.css\">\n";
 	sampleView_tmp_stream << "</head>\n";
 	sampleView_tmp_stream << "<body>\n";
+	sampleView_tmp_stream << "<ul class=\"menu\">\n";
+	sampleView_tmp_stream << "  <li title=\"home\"><a href=\"#\" class=\"home\">home</a></li>\n";
+	sampleView_tmp_stream << "  <li title=\"search\"><a href=\"#\" class=\"search\">search</a></li>\n";
+	sampleView_tmp_stream << "  <li title=\"pencil\"><a href=\"#\" class=\"pencil\">pencil</a></li>\n";
+	sampleView_tmp_stream << "  <li title=\"about\"><a href=\"#\" class=\"active about\">about</a></li>\n";
+	sampleView_tmp_stream << "  <li title=\"archive\"><a href=\"#\" class=\"archive\">archive</a></li>\n";
+	sampleView_tmp_stream << "  <li title=\"contact\"><a href=\"#\" class=\"contact\">contact</a></li>\n";
+	sampleView_tmp_stream << "</ul>\n";
 	sampleView_tmp_stream << "<form name=\"uploadForm\">\n";
 	sampleView_tmp_stream << "    <input type=\"file\" id=\"chooseFile\" />\n";
 	sampleView_tmp_stream << "    <input type=\"button\" id=\"uploadButton\" value=\"アップロード\" />\n";
