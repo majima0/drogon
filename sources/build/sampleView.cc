@@ -22,6 +22,7 @@ std::string sampleView::genText(const DrTemplateData& sampleView_view_data)
 	sampleView_tmp_stream << "<head>\n";
 	sampleView_tmp_stream << "    <meta charset=\"UTF-8\">\n";
 	sampleView_tmp_stream << "    <title>File upload</title>\n";
+	sampleView_tmp_stream << "    <link rel=\"stylesheet\" type=\"text/css\" href=\"/css/sample.css\">\n";
 	sampleView_tmp_stream << "</head>\n";
 	sampleView_tmp_stream << "<body>\n";
 	sampleView_tmp_stream << "<form name=\"uploadForm\">\n";
