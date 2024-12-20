@@ -3,3 +3,6 @@ sources/build/test
 sources/build/CMakeCache.txt
 sources/build/Makefile
 sources/build/cmake_install.cmake
+sources/CMakeLists.txt
+sources/build/javascript_cooperation
+sources/test
